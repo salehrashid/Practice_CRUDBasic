@@ -32,7 +32,7 @@ class SubscriberViewModel(private val repository: SubscriberRepository) : ViewMo
     }
 
     fun clearAllOrDelete() {
-
+        clearAll()
     }
 
     fun insert(subscriber: Subscriber) {
